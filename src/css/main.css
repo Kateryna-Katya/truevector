@@ -72,3 +72,30 @@ text-shadow:
     margin-top: 60px;
 }
 }
+/* How It Works */
+.how-wrapper-containers{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.how-container{
+    display: flex;
+        flex-direction: column;
+        gap: 32px;
+}
+@media only screen and (min-width: 1440px) {
+.how-container{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.how-wrapper{
+    width: 544px;
+}
+.how-one{
+    width: 317px;
+}
+.how-wrapper-containers{
+    gap: 24px;
+}
+}
