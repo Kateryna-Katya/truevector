@@ -19,7 +19,7 @@ new Swiper('.my-swiper', {
 
   breakpoints: {
     1440: {
-      slidesPerView: 2.1,
+      slidesPerView: 2.0,
       spaceBetween: 24,
     },
   },
