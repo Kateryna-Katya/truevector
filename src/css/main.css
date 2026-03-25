@@ -120,7 +120,7 @@ text-shadow:
 }
 /* Why Play Vector Tap? */
 .why-wrapper-containers{
-    margin-top: 40px;
+    margin-top: 48px;
 }
 .why-container{
     display: flex;
@@ -160,5 +160,32 @@ text-shadow:
 }
 .high-two{
     width: 347px;
+}
+}
+/* Minimal Design */
+.minimal-container{
+    display: flex;
+        flex-direction: column;
+        gap: 32px;
+}
+.minimal-wrap{
+    margin-top: 48px;
+}
+.minimal-list{
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+@media only screen and (min-width: 1440px) {
+.minimal-container {
+    flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+.minimal-wrap{
+    width: 259px;
+}
+.minimal-list {
+    margin-top: 16px;
+    margin-bottom: 24px;
 }
 }
