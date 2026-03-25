@@ -118,3 +118,25 @@ text-shadow:
      margin-top: 24px;
  }
 }
+/* Why Play Vector Tap? */
+.why-wrapper-containers{
+    margin-top: 40px;
+}
+.why-container{
+    display: flex;
+        flex-direction: column;
+        gap: 32px;
+}
+@media only screen and (min-width: 1440px) {
+.why-container {
+    flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .why-one{
+        width: 292px;
+    }
+.mob{
+    display: none;
+}
+}
