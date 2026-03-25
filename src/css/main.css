@@ -189,3 +189,13 @@ text-shadow:
     margin-bottom: 24px;
 }
 }
+/* Testimonials */
+.my-swiper .swiper-slide{
+    border-radius: 16px;
+        padding: 12px 16px;
+background: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+.author{
+ margin-bottom: 16px;   
+}
