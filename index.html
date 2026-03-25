@@ -2,55 +2,65 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/truevector/favicon.svg" />
+    <link rel="icon" type="image/png" href="/truevector/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+  <title>Vector Tap – Precision Tap Game | Hit the Red Dot</title>
+  <meta name="description"
+    content="Vector Tap is a clean and addictive precision tap game. Hit the red dot, beat your high score, and challenge your reaction speed in this minimalist arcade experience.">
+  <meta name="keywords"
+    content="tap game, precision game, reaction speed game, minimal arcade game, high score game, casual skill game">
+  <meta name="author" content="Vector Tap">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Vector Tap – Precision Tap Game">
+  <meta property="og:description"
+    content="Hit the red dot. Beat your high score. A clean, skill-based tap game built for focus and precision.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://truevector.space">
+  <meta property="og:image" content="https://truevector.space/preview.jpg">
+  <meta property="og:site_name" content="Vector Tap">
+
     <script type="module" crossorigin src="/truevector/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/truevector/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/truevector/assets/styles-BxB1oUhq.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+        <h1 class="home-title">Vector Tap</h1>
+        <h2 class="home-subtitle">Just tap the red dot.<br/>
+        Seriously, that's all there is to it.</h2>
+        <div class="wrap home-wrap">
+            <p>Your goal is simple:<br/>
+            Hit the red dot.<br />
+            That’s it.<br />
+            Try to get the highest score possible — or just play casually while waiting for someone instead of scrolling.<br />
+            Sounds simple enough, right? I know it sounds dumb, but you'll probably end up playing this way longer than you planned.</p>
+        </div>
+            <picture>
+                <source srcset="/truevector/assets/desk-CX8hnKPh.png 1x, /truevector/assets/desk@2x-K4Mep6j6.png 2x" media="(min-width: 1440px)" />
+                <source srcset="/truevector/assets/mob-D0C3X1if.png 1x, /truevector/assets/mob@2x-Dde504Ky.png 2x" media="(max-width: 1439px)" />
+                <img class="home-img" src="/truevector/assets/mob-D0C3X1if.png" alt="Vector Tap" loading="lazy" />
+            </picture>    
+            <a class="home-link" href="#why">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAQBJREFUeAHtlu0NgjAURV+cwBEYgQ0MG7CBbuAIuIEj4AaOwAiMUDdwhGsbWq1Ay0fL0x89yUvKg3APaaEQJRL/DICTrFpWRtzI0FbWXksIWRfiBB22BLTIkTjAh76EEclpS/CNkchlPa1+vdn6wBCXhOIaXQTj+CRE1PUBNyoo80ioc3sKBX7GJEwv0+MGIdOCaWyJthduU68SwTyEubkj/H2dK2dHPyZE4CGrUAM137pX6L7NzVy3CMyff9Hr2YvwQGuZGc7+GvrC1fGZYrEgXI2rKE/tEXB9gu9g2IzGwhuELLAFAv1wIaskDjD8Jauiz/OEgAov0e31fMGJBDcvrthm6qptmhsAAAAASUVORK5CYII=" alt="googleplay" loading="lazy">
+                <p>Play Now</p>
+            </a>    
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
